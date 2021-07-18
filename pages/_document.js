@@ -17,7 +17,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta name="robots" content="follow, index" />
+          {/* <meta name="robots" content="follow, index" />
           <meta name="description" content={meta.description} />
           <meta property="og:site_name" content={meta.title} />
           <meta property="og:description" content={meta.description} />
@@ -27,7 +27,7 @@ class MyDocument extends Document {
           <meta name="twitter:site" content="@yourname" />
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
-          <meta name="twitter:image" content={meta.image} />
+          <meta name="twitter:image" content={meta.image} /> */}
         </Head>
         <body>
           <Main />
